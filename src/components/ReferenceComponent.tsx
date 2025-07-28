@@ -4,6 +4,7 @@ const componentMap: Record<string, () => Promise<{ default: React.ComponentType<
   Banner: () => import('./Banner'),
   Header: () => import('./Header'),
   CTA: () => import('./CTA'),
+  FAQS: () => import('./FAQS'),
 };
 
 type Props = {

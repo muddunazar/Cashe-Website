@@ -15,6 +15,13 @@ const IndexPage = () => {
         link="/apply"
         theme="primary"
       />
+
+      <ReferenceComponent
+        name="FAQS"
+        text="Apply Now"
+        link="/apply"
+        theme="primary"
+      />
     </main>
   );
 };
