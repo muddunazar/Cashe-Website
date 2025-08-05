@@ -22,6 +22,7 @@ const IndexPage = () => {
         link="/apply"
         theme="primary"
       />
+      <p>sss</p>
     </main>
   );
 };
