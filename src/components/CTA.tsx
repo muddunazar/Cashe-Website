@@ -6,7 +6,7 @@ const CTA = () => {
   return (
     <div style={{ padding: "1rem", border: "1px dashed #333" }}>
       <button onClick={() => setClicked(true)}>
-        Click Me
+        Click Mee
       </button>
       {clicked && <p>You clicked the CTA button!</p>}
       <p>sadas</p>
