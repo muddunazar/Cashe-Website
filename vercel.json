@@ -1,7 +1,7 @@
 {
   "headers": [
     {
-      "source": "/static/(.*)",
+      "source": "/framework-[a-zA-Z0-9]+\\.js",
       "headers": [
         {
           "key": "Cache-Control",
@@ -10,7 +10,7 @@
       ]
     },
     {
-      "source": "/_next/static/(.*)",
+      "source": "/app-[a-zA-Z0-9]+\\.js",
       "headers": [
         {
           "key": "Cache-Control",
