@@ -1,16 +1,7 @@
 {
   "headers": [
     {
-      "source": "/framework-[a-zA-Z0-9]+\\.js",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public,max-age=31536000,immutable"
-        }
-      ]
-    },
-    {
-      "source": "/app-[a-zA-Z0-9]+\\.js",
+      "source": "/framework-39d617a640bc486b4448.js",
       "headers": [
         {
           "key": "Cache-Control",
