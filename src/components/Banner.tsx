@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <div style={{ padding: "1rem", background: color }}>
       <button onClick={() => setColor(color === "orange" ? "skyblue" : "orange")}>
-        Change Banner Color
+        Change Banner Colorr
       </button>
       <p>This is the Banner component with dynamic color.</p>
     </div>
