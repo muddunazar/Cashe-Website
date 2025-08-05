@@ -9,6 +9,7 @@ const CTA = () => {
         Click Me
       </button>
       {clicked && <p>You clicked the CTA button!</p>}
+      <p>sadas</p>
     </div>
   );
 };
